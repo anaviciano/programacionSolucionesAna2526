@@ -92,7 +92,7 @@ public class EscrituraLecturaTexto {
             BufferedWriter outputAppend = new BufferedWriter(fileAppend);
             // Escribimos el String en el fichero
             //Escribimos
-            output.write("escribimos con Buffered");
+            output.write("escribimos con Buffered\n");
             outputAppend.write("añadimos con Buffered");
             // Cerramos el writer
             output.close();
